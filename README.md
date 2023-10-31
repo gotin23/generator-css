@@ -20,15 +20,15 @@ To run this project locally, follow these steps:
    
 2. Navigate to the project directory:
  
-cd generator-css
+   cd generator-css
 
 3. Install the dependencies:
 
-npm install
+   npm install
 
 4.  Run the application:
 
-npm start
+   npm start
 
 The application will start in your default browser at http://localhost:3000.
 
