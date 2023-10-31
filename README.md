@@ -19,37 +19,25 @@ To run this project locally, follow these steps:
    git clone https://github.com/votre-utilisateur/css-generator.git
 Navigate to the project directory:
 
-bash
-Copy code
+
+
 cd css-generator
 Install the dependencies:
 
-bash
-Copy code
+
 npm install
 Run the application:
 
-bash
-Copy code
+
 npm start
 The application will start in your default browser at http://localhost:3000.
 
 Usage
 Once the application is running, you can use the interface to generate CSS lines for styling. The live preview will display the effects of the CSS changes in real-time.
 
-Contributing
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch.
-Make your changes.
-Commit your changes.
-Push to the branch.
-Open a pull request.
-Please ensure that your pull request adheres to the Contributor Covenant. Your contributions will be appreciated!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 
 Contact
-If you have any questions or feedback, feel free to reach out at your-email@example.com.
+If you have any questions or feedback, feel free to reach out at linkdu06@hotmail.com.
