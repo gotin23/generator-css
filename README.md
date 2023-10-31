@@ -13,7 +13,7 @@ CSS Generator is a tool created using Create React App that allows users to gene
 
 To run this project locally, follow these steps:
 
-## **Clone the repository:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/votre-utilisateur/css-generator.git
@@ -22,13 +22,12 @@ To run this project locally, follow these steps:
  
 cd generator-css
 
-3. **Install the dependencies:**
+3. Install the dependencies:
 
-  ```bash
 npm install
 
-4.  **Run the application:**
-  ```bash
+4.  Run the application:
+
 npm start
 
 The application will start in your default browser at http://localhost:3000.
