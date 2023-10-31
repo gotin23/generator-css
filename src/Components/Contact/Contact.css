@@ -1,0 +1,32 @@
+.contact-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f1f1f1
+}
+.info-contact{
+    color:#f1f1f1;
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+.info-contact a:hover{
+   
+   color: #a9a7a7;
+}
+.contact-container img {
+    display: block;
+    width: 150px;
+  margin: 80px   auto;
+  margin-bottom: 500px;
+    
+   
+}
+@media screen and (max-width: 500px) {
+   .info-contact{
+    font-size: 25px;
+   }
+       }

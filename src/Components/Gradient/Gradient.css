@@ -1,0 +1,57 @@
+.gradient-tool-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f1f1f1
+}
+.container-tool-gradient{
+    width: 90%;
+    border-radius: 10px 10px 10px 10px ;
+   
+    min-height: 400px;
+    display: flex;
+    margin: auto;
+    background-color: #f1f1f1;
+   flex-direction: row-reverse;
+   
+}
+.gradient-preview{
+width: 80%;
+margin: 20px 20px;
+min-height: 400px;
+
+}
+.gradient-setting{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.btn-add-color{
+    border: none;
+   height: 30px;
+   background: rgb(98, 98, 189);
+   border-radius: 5px;
+   color: #f1f1f1;
+   font-weight: 600;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-add-color:hover{
+    background: rgb(108, 108, 189);
+    
+}
+
+@media screen and (max-width: 500px) {
+.container-tool-gradient{
+    flex-direction: column-reverse;
+}
+.gradient-preview{
+    width: 90%;
+}
+.gradient-setting{
+    width: 100%;
+}
+   }

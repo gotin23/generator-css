@@ -1,0 +1,226 @@
+*,::after,::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: red /*#1871c4;*/
+}
+
+
+
+.code-to-copy{
+  width: 370px;
+  min-height: 160px;
+  border-radius: 10px  ;
+  border: 5px solid #f1f1f1;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 30px auto;
+  position: relative;
+  cursor: default;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  background:#1871c4 ;
+  color: #f1f1f1;
+  font-family: sans-serif;
+}
+.code-to-copy button{
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  padding: 6px 10px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family:sans-serif;
+  cursor: copy;
+  color: #f1f1f1;
+  background-color: #1871c4;
+  border: 2px solid #f1f1f1;
+ 
+}
+.code-to-copy button:hover{
+  background: #f1f1f1;
+  border-radius: 5px;
+  color: #1871c4;
+  
+  
+ 
+}
+.copy-toast {
+display: none;
+background-color: #f1f1f1;
+
+position: absolute;
+bottom: -30px;
+right:-10px;
+color: #1871c4;
+padding:3px ;
+border-radius: 3px;
+ 
+}
+ .active{
+  display: block;
+
+}
+.copy-toast.active{
+ 
+  animation: toastpop 0.7s ease-out forwards;
+ 
+  
+}
+@keyframes toastpop {
+  0% {
+   opacity: 0;
+  }
+  80% {
+    opacity: 1;
+    bottom: -15px;
+  }
+  100% {
+    bottom: -15px;
+    opacity: 1;
+  
+  }
+}
+
+input[type=range] {
+  height: 26px;
+  appearance: none;
+  margin: 10px 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+ 
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 40px;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+  appearance: none;
+  margin-top: -3px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #50555C;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #50555C;
+  background: #50555C;
+  border-radius: 14px;
+  border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 40px;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 14px;
+  cursor: pointer;
+  
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 28px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+input[type=range]::-ms-fill-upper {
+  background: #50555C;
+  border: 0px solid #000000;
+  border-radius: 28px;
+  box-shadow: 1px 1px 1px #50555C;
+}
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 20px;
+  width: 40px;
+  border-radius: 12px;
+  background: #529DE1;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #50555C;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #50555C;
+}
+
+input[type="color"] {
+	appearance: none;
+	border: none;
+	width: 32px;
+	height: 20px;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+  border-radius: 10px;  
+}
+
+select {
+  display: block;
+  width: 100%;
+ margin-left: 0;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 18px;
+  color: #60666d;
+  border-radius: 3px;
+  border: none;
+  padding:2px 5px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.506);
+  margin-bottom: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+
+
+ label{
+  font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.label-value{
+ font-size: 14px;
+}

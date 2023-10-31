@@ -1,0 +1,73 @@
+.box-shadow-title{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f1f1f1;
+}
+.box-shadow-tool{
+    width: 90%;
+    border-radius: 10px 10px 10px 10px ;
+    display: flex;
+    margin: auto;
+    background: #f1f1f1;
+}
+.box-shadow-setting{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  
+}
+.box-shadow-preview{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.box-preview{
+    width: 400px;
+    height: 400px;
+    background: rgb(49, 49, 118);
+    margin: 30px;
+}
+.container-input button{
+    border: none;
+    height: 30px;
+    background: rgb(98, 98, 189);
+    border-radius: 5px;
+    color: #f1f1f1;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.container-input button:hover{
+   
+    background: rgb(108, 108, 189);
+    
+}
+@media screen and (max-width: 500px) {
+  .box-shadow-tool{
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  .box-shadow-setting{
+    width: 100%;
+   
+  
+}
+.box-shadow-preview{
+    width: 90%;
+   
+}
+.box-preview{
+    width: 250px;
+    height: 250px;
+    background: rgb(49, 49, 118);
+}
+  }
