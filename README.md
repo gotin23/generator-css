@@ -19,14 +19,20 @@ To run this project locally, follow these steps:
    git clone https://github.com/votre-utilisateur/css-generator.git
    
 2. **Navigate to the project directory:**
+ 
+ ```bash
 cd generator-css
 
 
 3. **Install the dependencies:**
+
+```bash
 npm install
 
 
 4. **Run the application:**
+
+```bash
 npm start
 
 The application will start in your default browser at http://localhost:3000.
